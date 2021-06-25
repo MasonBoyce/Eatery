@@ -11,7 +11,9 @@ import SwiftUI
 struct EateryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            
+            ContentView(review: Review.example)
+            }
+        
     }
 }
