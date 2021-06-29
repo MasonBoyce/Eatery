@@ -12,10 +12,10 @@ struct MapView: View {
     @EnvironmentObject var reviews: Reviews
     @State var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
-            latitude: -74.00774295882294,
-            longitude:40.71459208043575
+            latitude: 40.718230031858916,
+            longitude: -73.97590037077639
             ),
-        span: MKCoordinateSpan(latitudeDelta: 2, longitudeDelta: 2)
+        span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
         )
     
     var body: some View {
