@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Review{
+struct Review: Decodable, Identifiable{
+    let id: Int
     let restaurant: String
     let stars: Double
     let text: String
@@ -15,7 +16,7 @@ struct Review{
     let menuItem: String
     let person: String
     let eatAgain: String
+    let latitude: Double
+    let longitude: Double
     
-    static let example = Review(restaurant: "Kellogs", stars: 4.5, text: "Itssss Great", photo: "FrostedFlakes", menuItem: "Frosted Flakes", person: "George", eatAgain: "true")
-
 }

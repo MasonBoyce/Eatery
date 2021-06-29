@@ -9,11 +9,25 @@ import SwiftUI
 
 @main
 struct EateryApp: App {
+    @StateObject  var reviews  = Reviews()
     var body: some Scene {
         WindowGroup {
-            
-            ContentView(review: Review.example)
+            TabView{
+                NavigationView{
+                    ContentView(review: reviews.primary)
+                }.tabItem {
+                    Image(systemName: "pencil.circle")
+                    Text("Review")
             }
+                NavigationView{
+                    MapView()
+                }.tabItem {
+                    Image(systemName: "map")
+                    Text("Map")
+            }
+            }
+            .environmentObject(reviews)
+        }
         
     }
 }

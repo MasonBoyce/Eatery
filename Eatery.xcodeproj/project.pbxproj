@@ -12,6 +12,9 @@
 		502F79E126866AFD006AD7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F79E026866AFD006AD7A3 /* Assets.xcassets */; };
 		502F79E426866AFD006AD7A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F79E326866AFD006AD7A3 /* Preview Assets.xcassets */; };
 		502F79ED26866B3F006AD7A3 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F79EC26866B3F006AD7A3 /* Review.swift */; };
+		502F7A18268A57A1006AD7A3 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A17268A57A1006AD7A3 /* Reviews.swift */; };
+		502F7A1B268A58B8006AD7A3 /* reviews.json in Resources */ = {isa = PBXBuildFile; fileRef = 502F7A1A268A58B8006AD7A3 /* reviews.json */; };
+		502F7A1E268A80EF006AD7A3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A1D268A80EF006AD7A3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		502F79E326866AFD006AD7A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		502F79E526866AFD006AD7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		502F79EC26866B3F006AD7A3 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		502F7A17268A57A1006AD7A3 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		502F7A1A268A58B8006AD7A3 /* reviews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reviews.json; sourceTree = "<group>"; };
+		502F7A1D268A80EF006AD7A3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				502F79DC26866AFB006AD7A3 /* EateryApp.swift */,
 				502F79EC26866B3F006AD7A3 /* Review.swift */,
+				502F7A17268A57A1006AD7A3 /* Reviews.swift */,
 				502F79DE26866AFB006AD7A3 /* ContentView.swift */,
+				502F7A1A268A58B8006AD7A3 /* reviews.json */,
+				502F7A1D268A80EF006AD7A3 /* MapView.swift */,
 				502F79E026866AFD006AD7A3 /* Assets.xcassets */,
 				502F79E526866AFD006AD7A3 /* Info.plist */,
 				502F79E226866AFD006AD7A3 /* Preview Content */,
@@ -129,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502F7A1B268A58B8006AD7A3 /* reviews.json in Resources */,
 				502F79E426866AFD006AD7A3 /* Preview Assets.xcassets in Resources */,
 				502F79E126866AFD006AD7A3 /* Assets.xcassets in Resources */,
 			);
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				502F79DF26866AFB006AD7A3 /* ContentView.swift in Sources */,
+				502F7A18268A57A1006AD7A3 /* Reviews.swift in Sources */,
+				502F7A1E268A80EF006AD7A3 /* MapView.swift in Sources */,
 				502F79DD26866AFB006AD7A3 /* EateryApp.swift in Sources */,
 				502F79ED26866B3F006AD7A3 /* Review.swift in Sources */,
 			);
