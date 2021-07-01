@@ -22,13 +22,13 @@ struct ContentView: View {
             .font(/*@START_MENU_TOKEN@*/.title3/*@END_MENU_TOKEN@*/)
             HStack{
                 Text("Stars:")
-                
                 ForEach (0..<Int(review.stars)) {_ in
                     Image(systemName: "star.fill")
                 }
                 if review.stars > Double(Int(review.stars)) {
                     Image(systemName: "star.leadinghalf.fill")
                 }
+               
                 }
 
             Image(review.photo)

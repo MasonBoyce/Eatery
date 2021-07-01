@@ -19,4 +19,7 @@ struct Review: Decodable, Identifiable{
     let latitude: Double
     let longitude: Double
     
+    func printStars(){
+        
+    }
 }

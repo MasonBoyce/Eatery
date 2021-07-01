@@ -8,9 +8,16 @@
 import SwiftUI
 
 @main
+
 struct EateryApp: App {
-    @StateObject  var reviews  = Reviews()
+    @StateObject var reviews  = Reviews()
+    
+
+    
     var body: some Scene {
+        let listReviews = reviews.getListReview()
+        let Miles = Person(reviews: listReviews, zip: 11249, image: "miles.jpg", name: "Miles")
+        
         WindowGroup {
             TabView{
                 NavigationView{
@@ -21,13 +28,23 @@ struct EateryApp: App {
             }
                 NavigationView{
                     MapView()
-                }.tabItem {
+                }
+                .tabItem {
                     Image(systemName: "map")
                     Text("Map")
             }
+                .environmentObject(reviews)
+                NavigationView{
+                    PersonReviewView(person: Miles)
             }
-            .environmentObject(reviews)
+                .tabItem {
+                Image(systemName: "person.fill")
+                Text("Personal Reviews")
+            }
+                .environmentObject(reviews)
+            
         }
         
     }
+}
 }

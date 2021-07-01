@@ -19,6 +19,9 @@ class Reviews:  ObservableObject{
         let data = try! Data(contentsOf: url)
         listReview = try! JSONDecoder().decode([Review].self, from: data)
     }
+    func getListReview() -> [Review]{
+        return listReview
+    }
     
     
 }

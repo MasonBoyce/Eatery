@@ -15,6 +15,8 @@
 		502F7A18268A57A1006AD7A3 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A17268A57A1006AD7A3 /* Reviews.swift */; };
 		502F7A1B268A58B8006AD7A3 /* reviews.json in Resources */ = {isa = PBXBuildFile; fileRef = 502F7A1A268A58B8006AD7A3 /* reviews.json */; };
 		502F7A1E268A80EF006AD7A3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A1D268A80EF006AD7A3 /* MapView.swift */; };
+		50780177268BCF300051C6D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50780176268BCF300051C6D4 /* Person.swift */; };
+		5078017E268BE1580051C6D4 /* PersonReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078017D268BE1580051C6D4 /* PersonReviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		502F7A17268A57A1006AD7A3 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		502F7A1A268A58B8006AD7A3 /* reviews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reviews.json; sourceTree = "<group>"; };
 		502F7A1D268A80EF006AD7A3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		50780176268BCF300051C6D4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5078017D268BE1580051C6D4 /* PersonReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonReviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,10 @@
 				502F79EC26866B3F006AD7A3 /* Review.swift */,
 				502F7A17268A57A1006AD7A3 /* Reviews.swift */,
 				502F79DE26866AFB006AD7A3 /* ContentView.swift */,
-				502F7A1A268A58B8006AD7A3 /* reviews.json */,
 				502F7A1D268A80EF006AD7A3 /* MapView.swift */,
+				50780176268BCF300051C6D4 /* Person.swift */,
+				502F7A1A268A58B8006AD7A3 /* reviews.json */,
+				5078017D268BE1580051C6D4 /* PersonReviewView.swift */,
 				502F79E026866AFD006AD7A3 /* Assets.xcassets */,
 				502F79E526866AFD006AD7A3 /* Info.plist */,
 				502F79E226866AFD006AD7A3 /* Preview Content */,
@@ -151,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50780177268BCF300051C6D4 /* Person.swift in Sources */,
 				502F79DF26866AFB006AD7A3 /* ContentView.swift in Sources */,
 				502F7A18268A57A1006AD7A3 /* Reviews.swift in Sources */,
 				502F7A1E268A80EF006AD7A3 /* MapView.swift in Sources */,
+				5078017E268BE1580051C6D4 /* PersonReviewView.swift in Sources */,
 				502F79DD26866AFB006AD7A3 /* EateryApp.swift in Sources */,
 				502F79ED26866B3F006AD7A3 /* Review.swift in Sources */,
 			);
