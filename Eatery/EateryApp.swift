@@ -21,12 +21,6 @@ struct EateryApp: App {
         WindowGroup {
             TabView{
                 NavigationView{
-                    ContentView(review: reviews.primary)
-                }.tabItem {
-                    Image(systemName: "pencil.circle")
-                    Text("Review")
-            }
-                NavigationView{
                     MapView()
                 }
                 .tabItem {
@@ -42,9 +36,15 @@ struct EateryApp: App {
                 Text("Personal Reviews")
             }
                 .environmentObject(reviews)
-            
+
+            NavigationView{
+                WriteReview()
+                    }
+            .tabItem {
+                        Image(systemName: "pencil.circle")
+                        Text("WriteReview")
         }
-        
     }
+}
 }
 }
