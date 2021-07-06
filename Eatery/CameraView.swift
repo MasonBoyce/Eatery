@@ -8,18 +8,17 @@
 import SwiftUI
 
 struct CameraView: View {
-    @State var imageData: Data = .init(capacity: 0)
+    @State private var imageData: Data = .init(capacity: 0)
     @State private var showSheet = false
-    @State var showImagePicker = false
+    @State private var showImagePicker = false
     @State private var sourceType: UIImagePickerController.SourceType = .camera
     @State private var image : UIImage?
     
     var body: some View {
-        NavigationView{
             VStack{
                 Image(uiImage: image ?? UIImage(named: "placeholder")!)
                     .resizable()
-                    .frame(width: 300, height: 300)
+                    .frame(width: 100, height: 100)
                 Button("Choose picture"){
                     self.showSheet = true
                 }
@@ -37,8 +36,8 @@ struct CameraView: View {
                         .cancel()
                     ])
                 }
-            }.navigationTitle("Choose Picture")
-        }.sheet(isPresented: $showImagePicker){
+            }
+        .sheet(isPresented: $showImagePicker){
             ImagePicker(image: self.$image,isShown: self.$showImagePicker, sourceType: self.sourceType)
         }
         

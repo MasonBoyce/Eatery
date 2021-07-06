@@ -12,7 +12,7 @@ import SwiftUI
 struct EateryApp: App {
     @StateObject var reviews  = Reviews()
     
-
+    
     
     var body: some Scene {
         let listReviews = reviews.getListReview()
@@ -26,25 +26,26 @@ struct EateryApp: App {
                 .tabItem {
                     Image(systemName: "map")
                     Text("Map")
-            }
+                }
                 .environmentObject(reviews)
                 NavigationView{
                     PersonReviewView(person: Miles)
-            }
+                }
                 .tabItem {
-                Image(systemName: "person.fill")
-                Text("Personal Reviews")
-            }
+                    Image(systemName: "person.fill")
+                    Text("Personal Reviews")
+                }
                 .environmentObject(reviews)
+                
+                NavigationView{
+                    WriteReview()
+                }
+                .tabItem {
+                    Image(systemName: "pencil.circle")
+                    Text("WriteReview")
+                }
 
-            NavigationView{
-                WriteReview()
-                    }
-            .tabItem {
-                        Image(systemName: "pencil.circle")
-                        Text("WriteReview")
+            }
         }
     }
-}
-}
 }
