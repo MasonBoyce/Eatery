@@ -8,11 +8,10 @@
 import SwiftUI
 
 @main
-
+    
 struct EateryApp: App {
     @StateObject var reviews  = Reviews()
-    
-    
+    //let dixk =  writeToPlist()
     
     var body: some Scene {
         let listReviews = reviews.getListReview()
@@ -48,4 +47,5 @@ struct EateryApp: App {
             }
         }
     }
+    
 }

@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         ScrollView{
         VStack(){
-        Text(review.restaurant)
+        Text(review.Name)
                 .font(.largeTitle)
                 .bold()
             .foregroundColor(.primary)
@@ -25,16 +25,13 @@ struct ContentView: View {
                 ForEach (0..<Int(review.stars)) {_ in
                     Image(systemName: "star.fill")
                 }
-                if review.stars > Double(Int(review.stars)) {
-                    Image(systemName: "star.leadinghalf.fill")
-                }
-               
+    
                 }
 
             Image(review.photo)
                 .resizable()
                 .scaledToFit()
-            Text("Review: \(review.text)")
+            Text("Review: \(review.content)")
                 .padding()
             Text("Ate With:  \(review.person)")
                 .padding()

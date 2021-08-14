@@ -3,41 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06930EA3CC0615868E6C0611 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1382A2BD90E78A8198C6A /* AmplifyModels.swift */; };
+		0C26CCBD151AF5A969778CFF /* Review+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CF276AAFC19ECDA09702E /* Review+Schema.swift */; };
+		15CC3E9CEC7382A56C24F1D0 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FBDE0461FD51AB8B17682 /* Review.swift */; };
+		2CB8F3183D02CA29EB93687E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EFEFA09A0C62CF486078D /* amplifyconfiguration.json */; };
+		5015D71D26C80C46008310DC /* schema.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5015D71C26C80C46008310DC /* schema.graphql */; };
+		5015D72226C824A4008310DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015D72126C824A4008310DC /* AppDelegate.swift */; };
 		502F79DD26866AFB006AD7A3 /* EateryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F79DC26866AFB006AD7A3 /* EateryApp.swift */; };
 		502F79DF26866AFB006AD7A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F79DE26866AFB006AD7A3 /* ContentView.swift */; };
 		502F79E126866AFD006AD7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F79E026866AFD006AD7A3 /* Assets.xcassets */; };
 		502F79E426866AFD006AD7A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F79E326866AFD006AD7A3 /* Preview Assets.xcassets */; };
-		502F79ED26866B3F006AD7A3 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F79EC26866B3F006AD7A3 /* Review.swift */; };
 		502F7A18268A57A1006AD7A3 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A17268A57A1006AD7A3 /* Reviews.swift */; };
 		502F7A1B268A58B8006AD7A3 /* reviews.json in Resources */ = {isa = PBXBuildFile; fileRef = 502F7A1A268A58B8006AD7A3 /* reviews.json */; };
 		502F7A1E268A80EF006AD7A3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F7A1D268A80EF006AD7A3 /* MapView.swift */; };
+		504176E126989A7A00D0CB71 /* writeToPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504176E026989A7A00D0CB71 /* writeToPlist.swift */; };
 		5042C1C12690A54D00F7BBE9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C1C02690A54D00F7BBE9 /* CameraView.swift */; };
 		5042C1C42690B87500F7BBE9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042C1C32690B87500F7BBE9 /* ImagePicker.swift */; };
 		50780177268BCF300051C6D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50780176268BCF300051C6D4 /* Person.swift */; };
 		5078017E268BE1580051C6D4 /* PersonReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078017D268BE1580051C6D4 /* PersonReviewView.swift */; };
 		5078018D268E1D390051C6D4 /* WriteReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078018C268E1D390051C6D4 /* WriteReview.swift */; };
+		7DEAB34DCE04D18CC51A8968 /* Review+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CF276AAFC19ECDA09702E /* Review+Schema.swift */; };
+		88D0F76BADBEDAFF7877CA61 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E3279F68032E1EC35F933B /* awsconfiguration.json */; };
+		8E5C55DD4434868312EE2F72 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1382A2BD90E78A8198C6A /* AmplifyModels.swift */; };
+		AE229CD853BBAD0431A7D466 /* Pods_Eatery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CEE98A42EA1DB0B703BBA4 /* Pods_Eatery.framework */; };
+		DD29FB7ECED62B36704BADA7 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1382A2BD90E78A8198C6A /* AmplifyModels.swift */; };
+		F4F351453D1AF5589E884321 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FBDE0461FD51AB8B17682 /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25CEE98A42EA1DB0B703BBA4 /* Pods_Eatery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eatery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3EFEFA09A0C62CF486078D /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		5015D71C26C80C46008310DC /* schema.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/eatery/schema.graphql; sourceTree = "<group>"; };
+		5015D72126C824A4008310DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		502F79D926866AFB006AD7A3 /* Eatery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		502F79DC26866AFB006AD7A3 /* EateryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EateryApp.swift; sourceTree = "<group>"; };
 		502F79DE26866AFB006AD7A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		502F79E026866AFD006AD7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502F79E326866AFD006AD7A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		502F79E526866AFD006AD7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		502F79EC26866B3F006AD7A3 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		502F7A17268A57A1006AD7A3 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		502F7A1A268A58B8006AD7A3 /* reviews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reviews.json; sourceTree = "<group>"; };
 		502F7A1D268A80EF006AD7A3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		504176E026989A7A00D0CB71 /* writeToPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeToPlist.swift; sourceTree = "<group>"; };
 		5042C1C02690A54D00F7BBE9 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		5042C1C32690B87500F7BBE9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		50780176268BCF300051C6D4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5078017D268BE1580051C6D4 /* PersonReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonReviewView.swift; sourceTree = "<group>"; };
 		5078018C268E1D390051C6D4 /* WriteReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReview.swift; sourceTree = "<group>"; };
+		5D1FBDE0461FD51AB8B17682 /* Review.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Review.swift; path = amplify/generated/models/Review.swift; sourceTree = "<group>"; };
+		6000AAFDD0526A67C5F0B3E0 /* Pods-Eatery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eatery.release.xcconfig"; path = "Target Support Files/Pods-Eatery/Pods-Eatery.release.xcconfig"; sourceTree = "<group>"; };
+		94C1382A2BD90E78A8198C6A /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		B0E3279F68032E1EC35F933B /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		BF6CF276AAFC19ECDA09702E /* Review+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Review+Schema.swift"; path = "amplify/generated/models/Review+Schema.swift"; sourceTree = "<group>"; };
+		D21800FE9D7B3DBA20063F83 /* Pods-Eatery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eatery.debug.xcconfig"; path = "Target Support Files/Pods-Eatery/Pods-Eatery.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +67,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE229CD853BBAD0431A7D466 /* Pods_Eatery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07CE69DFB21DC95511AA3357 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3279F68032E1EC35F933B /* awsconfiguration.json */,
+				4D3EFEFA09A0C62CF486078D /* amplifyconfiguration.json */,
+				5015D71C26C80C46008310DC /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		28C54B49E972F35CFB125099 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				94C1382A2BD90E78A8198C6A /* AmplifyModels.swift */,
+				BF6CF276AAFC19ECDA09702E /* Review+Schema.swift */,
+				5D1FBDE0461FD51AB8B17682 /* Review.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
 		502F79D026866AFB006AD7A3 = {
 			isa = PBXGroup;
 			children = (
 				502F79DB26866AFB006AD7A3 /* Eatery */,
 				502F79DA26866AFB006AD7A3 /* Products */,
+				07CE69DFB21DC95511AA3357 /* AmplifyConfig */,
+				58B8E5B786CE9BAAD29CBAE4 /* Pods */,
+				E45FAF269657F2D7E08DAC85 /* Frameworks */,
+				28C54B49E972F35CFB125099 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,9 +117,10 @@
 		502F79DB26866AFB006AD7A3 /* Eatery */ = {
 			isa = PBXGroup;
 			children = (
+				5015D72126C824A4008310DC /* AppDelegate.swift */,
 				502F79DC26866AFB006AD7A3 /* EateryApp.swift */,
-				502F79EC26866B3F006AD7A3 /* Review.swift */,
 				502F7A17268A57A1006AD7A3 /* Reviews.swift */,
+				504176E026989A7A00D0CB71 /* writeToPlist.swift */,
 				502F79DE26866AFB006AD7A3 /* ContentView.swift */,
 				502F7A1D268A80EF006AD7A3 /* MapView.swift */,
 				50780176268BCF300051C6D4 /* Person.swift */,
@@ -96,6 +144,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		58B8E5B786CE9BAAD29CBAE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D21800FE9D7B3DBA20063F83 /* Pods-Eatery.debug.xcconfig */,
+				6000AAFDD0526A67C5F0B3E0 /* Pods-Eatery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E45FAF269657F2D7E08DAC85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25CEE98A42EA1DB0B703BBA4 /* Pods_Eatery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 502F79E826866AFD006AD7A3 /* Build configuration list for PBXNativeTarget "Eatery" */;
 			buildPhases = (
+				9CF5F07B1E005406E2C4D4A1 /* [CP] Check Pods Manifest.lock */,
 				502F79D526866AFB006AD7A3 /* Sources */,
 				502F79D626866AFB006AD7A3 /* Frameworks */,
 				502F79D726866AFB006AD7A3 /* Resources */,
+				2AB1ECDC0012862312E4494A /* [CP] Embed Pods Frameworks */,
+				50E0321426C4B60900D285B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -155,17 +223,86 @@
 			files = (
 				502F7A1B268A58B8006AD7A3 /* reviews.json in Resources */,
 				502F79E426866AFD006AD7A3 /* Preview Assets.xcassets in Resources */,
+				5015D71D26C80C46008310DC /* schema.graphql in Resources */,
 				502F79E126866AFD006AD7A3 /* Assets.xcassets in Resources */,
+				88D0F76BADBEDAFF7877CA61 /* awsconfiguration.json in Resources */,
+				2CB8F3183D02CA29EB93687E /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB1ECDC0012862312E4494A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eatery/Pods-Eatery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eatery/Pods-Eatery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eatery/Pods-Eatery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E0321426C4B60900D285B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		9CF5F07B1E005406E2C4D4A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eatery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		502F79D526866AFB006AD7A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5015D72226C824A4008310DC /* AppDelegate.swift in Sources */,
+				504176E126989A7A00D0CB71 /* writeToPlist.swift in Sources */,
 				50780177268BCF300051C6D4 /* Person.swift in Sources */,
 				5078018D268E1D390051C6D4 /* WriteReview.swift in Sources */,
 				502F79DF26866AFB006AD7A3 /* ContentView.swift in Sources */,
@@ -175,7 +312,13 @@
 				5078017E268BE1580051C6D4 /* PersonReviewView.swift in Sources */,
 				5042C1C42690B87500F7BBE9 /* ImagePicker.swift in Sources */,
 				502F79DD26866AFB006AD7A3 /* EateryApp.swift in Sources */,
-				502F79ED26866B3F006AD7A3 /* Review.swift in Sources */,
+				8E5C55DD4434868312EE2F72 /* AmplifyModels.swift in Sources */,
+				06930EA3CC0615868E6C0611 /* AmplifyModels.swift in Sources */,
+				0C26CCBD151AF5A969778CFF /* Review+Schema.swift in Sources */,
+				15CC3E9CEC7382A56C24F1D0 /* Review.swift in Sources */,
+				DD29FB7ECED62B36704BADA7 /* AmplifyModels.swift in Sources */,
+				7DEAB34DCE04D18CC51A8968 /* Review+Schema.swift in Sources */,
+				F4F351453D1AF5589E884321 /* Review.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +443,7 @@
 		};
 		502F79E926866AFD006AD7A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21800FE9D7B3DBA20063F83 /* Pods-Eatery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +466,7 @@
 		};
 		502F79EA26866AFD006AD7A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6000AAFDD0526A67C5F0B3E0 /* Pods-Eatery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

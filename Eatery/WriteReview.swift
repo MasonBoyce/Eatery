@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+import Amplify
+
 
 struct WriteReview: View {
+ 
     @State private var Restaurant = ""
     @State private var Star = 1
     @State private var Review = ""
     @State private var menuItem = ""
     @State private var friend = ""
     //let starImage = UIImage(systemName: "star.fill")
+    
     
     var body: some View {
         
@@ -46,19 +50,41 @@ struct WriteReview: View {
                     Section{
                         TextField("Who did you eat with", text:  $friend)
                     }
-                    Button("SUBMIT"){
-                        
-                        
-                    }
+                    
             }
+            /*Button(action: let saveSink = Amplify.DataStore.save(
+                Review(id: String
+                 Name: String
+                 Food: String
+                public var stars: Int
+                public var content: String
+                public var photo: String
+                public var menuItem: String
+                public var person: String
+                public var eatAgain: String
+                public var latitude: Double
+                public var longitude: Double
+            )
+            .sink {
+                if case let .failure(error) = $0 {
+                    print("Error creating post - \(error.localizedDescription)")
+                }
+            }
+            receiveValue: {
+                print("Created a new post successfully")
+            }) {
+                Text("Save")
+            }
+ */
         
         }
     }
 }
 
-struct WriteReview_Previews: PreviewProvider {
+/*struct WriteReview_Previews: PreviewProvider {
     static var previews: some View {
-        WriteReview()
+        //WriteReview()
         
     }
 }
+*/

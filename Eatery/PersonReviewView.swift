@@ -5,6 +5,7 @@
 //  Created by Mason Boyce on 6/29/21.
 //
 
+
 import SwiftUI
 
 struct PersonReviewView: View {
@@ -16,16 +17,16 @@ struct PersonReviewView: View {
             ForEach(person.reviews){review in
                 NavigationLink(destination: ContentView(review:review)
                 ){
-                    let star: String = String(format: "Num Stars %.1f", review.stars)
+                   
                     HStack{
-                        
+                        let star: String = String(format: "Num Stars %.1f", review.stars)
                         Image(review.photo)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(height: 50)
                         Divider()
                         VStack{
-                            Text(review.restaurant)
+                            Text(review.Name)
                             Text(star)
                         }
                     }
@@ -36,9 +37,3 @@ struct PersonReviewView: View {
     }
     
 }
-
-/*struct PersonReviewView_Previews: PreviewProvider {
- static var previews: some View {
- PersonReviewView()
- }
- }*/

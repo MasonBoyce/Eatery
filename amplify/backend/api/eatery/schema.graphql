@@ -1,0 +1,16 @@
+type Review @model {
+  id: ID!
+  Name: String!
+  Food: String!
+  stars: Int!
+  content: String!
+  photo: String!
+  menuItem: String!
+  person: String!
+  eatAgain: String!
+  latitude: Float!
+  longitude: Float!
+  }
+
+
+

@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eatery-dev-211452-authRole",
+      "UnauthRoleArn": "arn:aws:iam::631784323367:role/amplify-eatery-dev-211452-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::631784323367:role/amplify-eatery-dev-211452-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-eatery-dev-211452-deployment",
+      "UnauthRoleName": "amplify-eatery-dev-211452-unauthRole",
+      "StackName": "amplify-eatery-dev-211452",
+      "StackId": "arn:aws:cloudformation:us-east-1:631784323367:stack/amplify-eatery-dev-211452/b52779c0-fb0a-11eb-a001-1291290b94c1",
+      "AmplifyAppId": "d12lz5o9qd2r3r"
+    }
+  }
+}

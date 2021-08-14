@@ -24,7 +24,7 @@ struct MapView: View {
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: review.latitude, longitude: review.longitude)){
                 NavigationLink(destination: ContentView(review:review)
                 ){
-                        Text(review.restaurant)
+                        Text(review.Name)
                     }
             }
         }.navigationTitle("map")
