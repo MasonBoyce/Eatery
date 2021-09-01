@@ -11,6 +11,16 @@ type Review @model {
   latitude: Float!
   longitude: Float!
   }
+  
+type Person {
+    id: ID!
+    reviews: [Review!]!
+    zip: Int!
+    friends: [Person]
+    image: String
+    name: String
+}
+   
 
 
 

@@ -10,11 +10,10 @@ import SwiftUI
 @main
     
 struct EateryApp: App {
-    @StateObject var reviews  = Reviews()
-    //let dixk =  writeToPlist()
     
     var body: some Scene {
-        let listReviews = reviews.getListReview()
+        
+        let listReviews 
         let Miles = Person(reviews: listReviews, zip: 11249, image: "miles.jpg", name: "Miles")
         
         WindowGroup {

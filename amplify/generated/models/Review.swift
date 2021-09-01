@@ -2,7 +2,7 @@
 import Amplify
 import Foundation
 
-public struct Review: Model, Identifiable {
+public struct Review: Model {
   public let id: String
   public var Name: String
   public var Food: String

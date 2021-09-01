@@ -14,10 +14,8 @@ class Reviews:  ObservableObject{
         listReview[0]
     }
 
-    init(){
-        let url = Bundle.main.url(forResource: "reviews", withExtension: "json")!
-        let data = try! Data(contentsOf: url)
-        listReview = try! JSONDecoder().decode([Review].self, from: data)
+    init(person: Person){
+        listReview = person.reviews
     }
     func getListReview() -> [Review]{
         return listReview
